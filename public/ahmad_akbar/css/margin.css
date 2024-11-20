@@ -1,0 +1,41 @@
+#pdd{
+    padding-right: 0.2cm;
+    padding-bottom: 0.1cm;
+};
+
+#tekskecil{
+    font-size: 10%;
+}
+
+#imgdashboard{
+    background-image: url('../../assets/img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgdatasiswa{
+    background-image: url('https://img.freepik.com/free-vector/back-school-kids-students-with-backpacks-textbooks-stand-row-boy-girls-pupils-reading-books-education-learning-studying-concept-with-children-group-line-art-vector-illustration_107791-11175.jpg?w=1380&t=st=1704455539~exp=1704456139~hmac=24dadadb678026e093a6b8bc2b3c99087ec9cc29f30f4e5ff4c14f1a2f1ad325');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 23%;
+}
+
+#background-sekolah{
+    background-image: url('../../assets/img/DSC2511.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#warna1{
+    color: red;
+}
+
+.tombol{
+    width: 100%;
+}
+
+.paddingrow{
+    padding-left: 4%;
+}
