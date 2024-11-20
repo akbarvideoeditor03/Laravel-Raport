@@ -16,7 +16,7 @@
 
 </head>
 
-<body style="background-color: lavender">
+<body id="background-container">
   <!--  Body Wrapper -->
   <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">
@@ -316,20 +316,14 @@
         </nav>
       </header>
 
-      <body>
-        <div class="container-fluid" style="margin-bottom: 5%">
+      <div class="container-fluid" style="padding-bottom: 5%">
+        <div class="row justify-content-center">
           @include('flash::message')
           @yield('ahmad_akbar')
         </div>
-      </body>
+      </div>
       
-      <footer class="app-header position-fixed bottom-0">
-        <div class="card" id="warna_1">
-          <div class="card-footer" style="text-align: center" id="warna_1">
-            <b style="font-size: 90%">Kelompok Ahmad Akbar</b>
-          </div>
-        </div>
-      </footer>
+      
 
     </div>
   </div>
@@ -363,6 +357,7 @@
       });
     });
   </script>
+  
   
 
   

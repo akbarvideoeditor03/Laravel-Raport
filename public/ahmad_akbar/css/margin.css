@@ -28,6 +28,22 @@
     background-position: top;
 }
 
+#background-container{
+    background-image: url('../../sunset-mountain-retrowave-scenery-digital-art-4k-wallpaper-uhdpaper.com-187@1@n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#background-container::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.41); /* Warna hitam dengan opasitas 0.5 */
+}
+
 #warna1{
     color: red;
 }
@@ -39,3 +55,16 @@
 .paddingrow{
     padding-left: 4%;
 }
+
+#efekblur{
+    color: rgb(255, 255, 255);
+    background-color: #ffffff25;
+    backdrop-filter: blur(10px);
+}
+
+.teksjudul{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+

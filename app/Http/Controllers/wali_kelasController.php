@@ -38,6 +38,14 @@ class wali_kelasController extends Controller
             'nama_walikelas' => 'required',
             'nomor_telepon' => 'required',
             'gmbr_ttd_wali_kelas' => 'required|image|mimes:png|max:5000',
+        ],[
+            'nip_walikelas.required' => 'Mohon Isi NIP',
+            'nama_walikelas.required' => 'Mohon Nama Diisi',
+            'nomor_telepon.required' => 'Mohon Nomor Telepon Diisi',
+            'gmbr_ttd_wali_kelas.required' => 'Gambar Tidak Boleh Kosong',
+            'gmbr_ttd_wali_kelas.image' => 'Mohon Masukkan File Gambar',
+            'gmbr_ttd_wali_kelas.mimes' => 'Mohon Masukkan Gambar Berformat .png',
+            'gmbr_ttd_wali_kelas.max' => 'Ukuran Gambar Maksimum 5 MB',
         ]);
 
         // Simpan gambar ke dalam database

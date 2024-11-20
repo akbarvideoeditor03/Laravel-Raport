@@ -1,7 +1,7 @@
 @extends('layouts.ahmad_akbar')
 @section('ahmad_akbar')
     <div class="card">
-        <div class="card-header">
+        <div class="card-header efekblur">
             <div class="row">
                 <div class="col-xl-3">
                     <h4><b>{{ $judul }}</b></h4>

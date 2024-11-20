@@ -27,7 +27,6 @@ class mapelController extends Controller
         $data['judul'] = 'Tambah Data Mata Pelajaran';
         $data['tombol'] = 'Simpan';
         return view('/folder_mapel/form_matapelajaran', $data);
-
     }
 
     /**
